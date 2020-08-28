@@ -23,7 +23,7 @@ class SearchBar extends PureComponent {
 
     render() {
         const searchConfig = this.props.searchConfig;
-        const placeholder = searchConfig.placeholder;
+        const placeholder = this.props.searchConfig.placeholder;
         const query = this.props.query;
         const searchType = this.props.searchType;
 

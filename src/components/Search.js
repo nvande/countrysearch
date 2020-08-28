@@ -4,8 +4,7 @@ import Results from "./search/Results";
 import { Container, Row, Col } from 'react-bootstrap';
 
 const searchConfig = {
-    inputPlaceholderText: "Search for country by name",
-    resultPlaceholderText: "Results are displayed here",
+    placeholder: "Search countries",
     searchTypes: [
         'name',
         'fullName',
