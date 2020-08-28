@@ -1,9 +1,21 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('render tests', () => {
+  test('renders header', () => {
+    render(<App />);
+    expect(screen.getByTestId('header')).toBeTruthy();
+  });
+
+  test('renders search', () => {
+    render(<App />);
+    expect(screen.getByTestId('search')).toBeTruthy();
+  });
+
+  test('renders footer', () => {
+    render(<App />);
+    expect(screen.getByTestId('footer')).toBeTruthy();
+  });
+})
+
