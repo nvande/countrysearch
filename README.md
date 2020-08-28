@@ -1,8 +1,8 @@
 # Country Search
 
-<br />
-
 ### Country Search uses the REST Countries API to perform country searches by name, fullname, or country code
+
+<br />
 
 After a search is completed, the following data is displayed:
 * Country Name
@@ -20,6 +20,8 @@ The application also displays a summary containing the total number of results, 
 
 ### Country Search requires two processes to run locally:
 * first you must start the PHP server, and then launch the React web application
+
+<br />
 
 ## Starting the Server
 
