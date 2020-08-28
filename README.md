@@ -19,7 +19,8 @@ The application also displays a summary containing the total number of results, 
 <br />
 
 ### Country Search requires two processes to run locally:
-* first you must start the PHP server, and then launch the React web application
+* PHP server
+* React web application
 
 <br />
 
