@@ -17,10 +17,4 @@ describe('render tests', () => {
         render(<Search />);
         expect(screen.getByTestId('results')).toBeTruthy();
     });
-
-    test('renders footer body as expected', () => {
-        const title = "Country Search";
-        render(<Search />);
-        expect(screen.getByTestId('header-title')).toHaveTextContent(title);
-    });
 })
