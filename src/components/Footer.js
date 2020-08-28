@@ -7,10 +7,6 @@ const footerConfig = {
 
 
 class Footer extends PureComponent {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const footerBody = footerConfig.footerBody;
         return(
