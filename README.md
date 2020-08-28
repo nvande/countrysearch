@@ -22,7 +22,7 @@ The application also displays a summary containing the total number of results, 
 To start the server execute the following command in the project root:
 
 ```
-### ./server
+./server
 ```
 
 This requires a PHP binary in your system path
@@ -32,7 +32,7 @@ This requires a PHP binary in your system path
 To start the Country Search application execute the following command in the project root:
 
 ```
-### npm start
+npm start
 ```
 
 Then, navaigate to [http://localhost:3000](http://localhost:3000) to view it in the browser.
