@@ -36,3 +36,13 @@ npm start
 ```
 
 Then, navaigate to [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Testing the Application
+
+To run the automated tests for Country Search execute the following command in the project root:
+
+```
+npm test
+```
+
+(note: the project is not fully unit and integration tested, these tests only serve as an example of how tests might be automated)
