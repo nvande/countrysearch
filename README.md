@@ -1,5 +1,7 @@
 # Country Search
 
+<br />
+
 ### Country Search uses the REST Countries API to perform country searches by name, fullname, or country code
 
 After a search is completed, the following data is displayed:
@@ -14,6 +16,8 @@ After a search is completed, the following data is displayed:
 
 The application also displays a summary containing the total number of results, as well as the number of results by region and subregion.
 
+<br />
+
 ### Country Search requires two processes to run locally:
 * first you must start the PHP server, and then launch the React web application
 
@@ -27,6 +31,8 @@ To start the server execute the following command in the project root:
 
 This requires a PHP binary in your system path
 
+<br />
+
 ## Starting the Application
 
 To start the Country Search application execute the following command in the project root:
@@ -36,6 +42,8 @@ npm start
 ```
 
 Then, navaigate to [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<br />
 
 ## Testing the Application
 
