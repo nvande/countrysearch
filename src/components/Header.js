@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const headerConfig = {
     title: "Country Search",
-    subtitle: "Perform country searches by name, fullname, or country code using the REST Countries API",
+    subtitle: "Perform country searches by name, full name, or country code using the REST Countries API",
     link: "https://restcountries.eu/"
 }
 
