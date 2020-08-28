@@ -165,20 +165,21 @@ class Search extends PureComponent {
     }
 
     render() {
-        const query = this.state.query;
-        const searchType = this.state.searchType;
-        const results = this.state.results;
-        const numResults = this.state.numResults;
-        const regionResults = this.state.regionResults;
-        const subregionResults = this.state.subregionResults;
-        const lastQuery = this.state.lastQuery;
-        const lastType = this.state.lastType;
-        const error = this.state.error;
-        const loading = this.state.loading;
-        const doneSearch = this.state.doneSearch;
+        const {
+            query,
+            searchType,
+            results,
+            numResults,
+            regionResults,
+            subregionResults,
+            lastQuery,
+            lastType,
+            error,
+            loading,
+            doneSearch } = this.state;
 
         return(
-            <div className="component-search">
+            <div className="component-search" data-testid="search">
                 <Container>
                     <Row>
                         <Col>

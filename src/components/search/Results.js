@@ -176,7 +176,7 @@ class Results extends PureComponent {
         + ' found matching ' + searchConfig.searchTypeButtonTexts[lastType] + ' \'' + lastQuery + '\'';
 
         return(
-           <div className="component-results">
+           <div className="component-results" data-testid="results">
                <div className={"d-flex justify-content-center loading-wrap " + (loading ? "loading" : '')}>
                 {loading &&
                     <div className="spinner-border text-primary" role="status">

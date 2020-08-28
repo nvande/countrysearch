@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <Header/>
-      <Search/>
-      <Footer/>
+      <Search data-testId="search"/>
+      <Footer data-testID="footer"/>
     </div>
   );
 }

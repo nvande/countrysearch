@@ -5,15 +5,20 @@ const footerConfig = {
     footerBody: "Created by Nick Vander Woude, 2020"
 }
 
+
 class Footer extends PureComponent {
-     render() {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
         const footerBody = footerConfig.footerBody;
         return(
-            <footer className="component-footer">
+            <footer className="component-footer" data-testid="footer">
                 <Container>
                     <Row>
                         <Col>
-                            <p className="small float-right text-muted">
+                            <p className="small float-right text-muted" data-testid="footer-body">
                                 {footerBody}
                             </p>
                         </Col>

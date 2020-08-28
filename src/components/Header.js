@@ -9,11 +9,11 @@ class Header extends PureComponent {
     render() {
         const title = headerConfig.title;
         return(
-            <header className="component-header mt-5">
+            <header className="component-header mt-5" data-testid="header">
                 <Container >
                     <Row>
                         <Col>
-                            <h1 className="mt-5">{title}</h1>
+                            <h1 className="mt-5" data-testid="header-title">{title}</h1>
                         </Col>
                     </Row>
                 </Container>

@@ -40,6 +40,7 @@ class SearchBar extends PureComponent {
         return(
             <Form
                 className="component-searchBar"
+                data-testid="search-bar"
                 onSubmit={this.handleSearch}>
                 <Row>
                     <Col>
